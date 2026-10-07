@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int result = Muñtiply(2, 0);
+            int result = Multiply(2, 0);
             Console.WriteLine($"The product of 2 and 0 is {result}");
         }
 
