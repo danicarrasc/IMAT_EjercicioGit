@@ -20,8 +20,13 @@
             return x * y;
         }
 
-        static int Divide(int x, int y)
+        static int? Divide(int x, int y)
         {
+            if (y == 0)
+            {
+                Console.WriteLine($"Division entre {x} y {y} no es valido");
+                return null;
+            }
             return x / y;
         }
 
