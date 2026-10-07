@@ -4,13 +4,18 @@
     {
         static void Main(string[] args)
         {
-            int result = Add(2, 0);
-            Console.WriteLine($"The sum of 2 and 0 is {result}");
+            int result = Muñtiply(2, 0);
+            Console.WriteLine($"The product of 2 and 0 is {result}");
         }
 
         static int Add(int x, int y)
         {
             return x + y;
+        }
+
+        static int Multiply(int x, int y)
+        {
+            return x * y;
         }
     }
 }
