@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int result = Multiply(2, 0);
+            int result = Add(2, 0);
             Console.WriteLine($"The sum of 2 and 0 is {result}");
         }
 
